@@ -12,13 +12,13 @@ This is a back-end server api.
 
 ## Run the entire project
 To download smart-brain front-end: [Smart-brain](https://github.com/xin0415/smart-brain)<br/>
-Setup your database: CREATE TABLE users(
+Setup your database: <br/>CREATE TABLE users(
 						id serial PRIMARY KEY,
 						name VARCHAR(100),
 						email text UNIQUE NOT NULL,
 						entries BIGINT DEFAULT 0,
 						joined TIMESTAMP NOT NULL
-					);
+					);<br/>
 					CREATE TABLE login(
 						id serial PRIMARY KEY,
 						hash varchar(100) NOT NULL,
