@@ -8,16 +8,18 @@ const signin=require('./controllers/signin');
 const profile=require('./controllers/profile');
 const image=require('./controllers/image');
 
+/**********/
+// Change the information about the database
 const db=knex({
 	client: 'pg',
 	connection: {
     host : '127.0.0.1',
-    user : 'postgres',
-    password : 'chenxin9204',
-    database : 'smart-brain'
+    user : '',
+    password : '',
+    database : ''
   }
 });
-
+/**********/
 const app=express();
 
 app.use(bodyParser.json());
