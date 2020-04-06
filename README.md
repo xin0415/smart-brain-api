@@ -1,6 +1,6 @@
 # Smart-brain-api<br/>
 
-This is a back-end server api.
+This is a back-end server of smart-brain.
 
 ## Run the project 
 
